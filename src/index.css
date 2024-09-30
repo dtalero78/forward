@@ -1,0 +1,30 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+input, textarea, select {
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); /* Sombra sutil */
+    border: 1px solid #ccc; /* Borde para que se vea más claro */
+    padding: 0.75rem;
+    border-radius: 0.5rem;
+    outline: none;
+  }
+  
+  input:focus, textarea:focus, select:focus {
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra más pronunciada en foco */
+    border-color: #009fd9; /* Cambiar el color del borde en el foco */
+  }
+
+  body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  img {
+    display: block;
+    width: 100vw; /* La imagen ocupa todo el ancho de la pantalla */
+    height: auto;
+    object-fit: cover;
+  }
+  
